@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Old Sakha keyboard</string>
+    <string name="Colon">:</string>
+    <string name="Number0">0</string>
+    <string name="Number1">1</string>
+    <string name="Number2">2</string>
+    <string name="Number3">3</string>
+    <string name="Number4">4</string>
+    <string name="Number5">5</string>
+    <string name="Number6">6</string>
+    <string name="Number7">7</string>
+    <string name="Number8">8</string>
+    <string name="Number9">9</string>
+
+    <string name="letter_q">q</string>
+    <string name="letter_w">w</string>
+    <string name="letter_e">e</string>
+    <string name="letter_r">r</string>
+    <string name="letter_t">t</string>
+    <string name="letter_y">y</string>
+    <string name="letter_u">u</string>
+    <string name="letter_i">i</string>
+    <string name="letter_o">ɔ</string>
+    <string name="letter_p">p</string>
+    <string name="letter_lambda">ʎ</string>
+    <string name="letter_epsilon">з</string>
+    <string name="integral">ʃ</string>
+
+    <string name="letter_a">a</string>
+    <string name="letter_s">s</string>
+    <string name="letter_d">d</string>
+    <string name="letter_f">ɟ</string>
+    <string name="letter_g">g</string>
+    <string name="letter_h">h</string>
+    <string name="letter_j">j</string>
+    <string name="letter_k">k</string>
+    <string name="letter_l">l</string>
+    <string name="letter_omega">ɯ</string>
+    <string name="letter_ie">ꭡ</string>
+
+    <string name="letter_oe">ꭢ</string>
+    <string name="letter_uo">ꭣ</string>
+    <string name="letter_c">c</string>
+    <string name="letter_v">ɲ</string>
+    <string name="letter_b">b</string>
+    <string name="letter_n">n</string>
+    <string name="letter_m">m</string>
+    <string name="letter_nj">ŋ</string>
+    <string name="letter_ib">ҧ</string>
+    <string name="dot">.</string>
+    <string name="back">⇐</string>
+</resources>
