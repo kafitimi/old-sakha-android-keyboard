@@ -8,6 +8,36 @@ class OldSakhaKeyboardService : InputMethodService() {
 
     override fun onCreateInputView(): View {
         return layoutInflater.inflate(R.layout.input, null).apply {
+            findViewById<Button>(R.id.button_1).setOnClickListener {
+                currentInputConnection.commitText("1", 1)
+            }
+            findViewById<Button>(R.id.button_2).setOnClickListener {
+                currentInputConnection.commitText("2", 1)
+            }
+            findViewById<Button>(R.id.button_3).setOnClickListener {
+                currentInputConnection.commitText("3", 1)
+            }
+            findViewById<Button>(R.id.button_4).setOnClickListener {
+                currentInputConnection.commitText("4", 1)
+            }
+            findViewById<Button>(R.id.button_5).setOnClickListener {
+                currentInputConnection.commitText("5", 1)
+            }
+            findViewById<Button>(R.id.button_6).setOnClickListener {
+                currentInputConnection.commitText("6", 1)
+            }
+            findViewById<Button>(R.id.button_7).setOnClickListener {
+                currentInputConnection.commitText("7", 1)
+            }
+            findViewById<Button>(R.id.button_8).setOnClickListener {
+                currentInputConnection.commitText("8", 1)
+            }
+            findViewById<Button>(R.id.button_9).setOnClickListener {
+                currentInputConnection.commitText("9", 1)
+            }
+            findViewById<Button>(R.id.button_0).setOnClickListener {
+                currentInputConnection.commitText("0", 1)
+            }
             findViewById<Button>(R.id.button_q).setOnClickListener {
                 currentInputConnection.commitText("q", 1)
             }
@@ -112,8 +142,17 @@ class OldSakhaKeyboardService : InputMethodService() {
             findViewById<Button>(R.id.button_dot).setOnClickListener {
                 currentInputConnection.commitText(".", 1)
             }
+            findViewById<Button>(R.id.button_space).setOnClickListener {
+                currentInputConnection.commitText(" ", 1)
+            }
             findViewById<Button>(R.id.button_back).setOnClickListener {
                 currentInputConnection.deleteSurroundingText(1, 0);
+            }
+            findViewById<Button>(R.id.button_colon).setOnClickListener {
+                currentInputConnection.commitText(":", 0);
+            }
+            findViewById<Button>(R.id.button_enter).setOnClickListener {
+                currentInputConnection.commitText("\n", 0);
             }
         }
     }

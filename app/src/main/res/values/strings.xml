@@ -49,4 +49,8 @@
     <string name="letter_ib">ҧ</string>
     <string name="dot">.</string>
     <string name="back">⇐</string>
+    <string name="space"> </string>
+    <string name="enter">↵</string>
+    
+
 </resources>
